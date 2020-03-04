@@ -1,51 +1,49 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Calculadora</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="calcu.css">
-</head>
-<body>
-<div class="calculadora">
-	<div class="pantalla">
-		<div id="resultado"></div>
-	</div>
-	<div class="teclas">
-		<div class="numeros">
-      <div>
-            <button id= "C">C</button>
-      </div>
-			<div>
-		        <button id="n9">9</button>
-		        <button id="n8">8</button>
-		        <button id="n7">7</button>
-	    	</div>
-			<div>
-		        <button id="n4">4</button>
-		        <button id="n5">5</button>
-		        <button id="n6">6</button>
-		    </div>
-		    <div>
-		        <button id="n1">1</button>
-		        <button id="n2">2</button>
-		        <button id="n3">3</button>
-		    </div>
-		    <div>
-		        <button id="n0">0</button>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title> Calculadora</title>
+		<link rel="stylesheet" href="calcu.css">
+	</head>
+	<body>
+		<table class="calculadora">
+			<tr>
+				<td colspan = "4"> <span id = "resultado"></span>
+				</td>
+			</tr>
 
-		    </div>
-	    </div>
-		<div class="op">
-		    <button id="+">+</button>
-		    <button id="-">-</button>
-		    <button id="/">÷</button>
-		    <button id="*">x</button>
-	    </div>
-	</div>
-	<div class="sr">
-		<button id="sr">=</button>
-	</div>
-</div>
-<script src="js/script.js"></script>
-</body>
+			<tr>
+				<td> <button id="reset">C</button></td>
+			</tr>
+
+			<tr>
+				<td> <button id="siete">7</button></td>
+				<td> <button id="ocho">8</button></td>
+				<td> <button id="nueve">9</button></td>
+				<td> <button id="dividir">/</button></td>
+			</tr>
+
+			<tr>
+				<td> <button id="cuatro">4</button></td>
+				<td> <button id="cinco">5</button></td>
+				<td> <button id="seis">6</button></td>
+				<td> <button id="multiplicar">*</button></td>
+			</tr>
+
+			<tr>
+				<td> <button id="uno">1</button></td>
+				<td> <button id="dos">2</button></td>
+				<td> <button id="tres">3</button></td>
+				<td> <button id="restar">-</button></td>
+			</tr>
+
+			<tr>
+				<td> <button id="cero">0</button></td>
+				<td> <button id="doble_cero">00</button></td>
+				<td> <button id="igual">=</button></td>
+				<td> <button id="suma">+</button></td>
+			</tr>
+		</table>
+<script src= "calcu.js"></script>
+	</body>
 </html>
