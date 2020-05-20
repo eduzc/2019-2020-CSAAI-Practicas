@@ -1,0 +1,54 @@
+
+body {
+
+  /* Cambiamos el color del fondo */
+  background-color: #white;
+
+  /* Añadimos un margen lateral */
+  margin: 30px;
+
+  /* Relleno */
+  padding: 10px;
+
+  /* Borde */
+  border: 0;
+}
+img {
+
+  height: 200px;
+  width: 250px;
+  margin: 30px;
+}
+
+h1 {
+  color: #888888;
+  font-family: 600 32px Arial  ;
+  font-size: 300%;
+  margin: 20px;
+  padding:5px;
+  border: none;
+}
+
+
+h2 {
+  color: #888888;
+  font-family: 600 32px Arial;
+  font-size: 150%;
+  margin: 20px;
+  padding:5px;
+  border: none;
+}
+
+p {
+  color: black;
+  margin: 30px;
+
+}
+#videos {
+  width: 300px;
+  height: 300px;
+
+
+}
+
+}
