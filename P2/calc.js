@@ -3,64 +3,64 @@ var numero2;
 var operacion;
 
 function init(){
-
-  var resultado = document.getElementById('resultado');
-  var reset = document.getElementById('reset');
-  var sumar = document.getElementById('sumar');
-  var restar = document.getElementById('restar');
-  var multiplicar = document.getElementById('multiplicar');
-  var dividir = document.getElementById('dividir');
-  var igual = document.getElementById('igual');
-  var uno = document.getElementById('uno');
-  var dos = document.getElementById('dos');
-  var tres = document.getElementById('tres');
-  var cuatro = document.getElementById('cuatro');
-  var cinco = document.getElementById('cinco');
-  var seis = document.getElementById('seis');
-  var siete = document.getElementById('siete');
-  var ocho = document.getElementById('ocho');
-  var nueve = document.getElementById('nueve');
-  var cero = document.getElementById('cero');
-  var doble_cero = document.getElementById('doble_cero');
-
+  window.onload= function(){
+    var resultado = document.getElementByid('resultado');
+    var reset = document.getElementByid('reset');
+    var sumar = document.getElementByid('sumar');
+    var restar = document.getElementByid('restar');
+    var multiplicar = document.getElementByid('multiplicar');
+    var dividir = document.getElementByid('dividir');
+    var igual = document.getElementByid('igual');
+    var uno = document.getElementByid('uno');
+    var dos = document.getElementByid('dos');
+    var tres = document.getElementByid('tres');
+    var cuatro = document.getElementByid('cuatro');
+    var cinco = document.getElementByid('cinco');
+    var seis = document.getElementByid('seis');
+    var siete = document.getElementByid('siete');
+    var ocho = document.getElementByid('ocho');
+    var nueve = document.getElementByid('nueve');
+    var cero = document.getElementByid('cero');
+    var doble_cero = document.getElementByid('doble_cero');
+  }
 }
 
   //funcionalidad de botones
   uno.onclick = function(e){
-    resultado.textContent = resultado.textContent + "1"
+    resultado.textContent = resultado.textContent + "1";
 }
   dos.onclick = function(e){
-    resultado.textContent = resultado.textContent + "2"
+    resultado.textContent = resultado.textContent + "2";
 }
   tres.onclick = function(e){
-    resultado.textContent = resultado.textContent + "3"
+    resultado.textContent = resultado.textContent + "3";
 }
   cuatro.onclick = function(e){
-    resultado.textContent = resultado.textContent + "4"
+    resultado.textContent = resultado.textContent + "4";
 }
   cinco.onclick = function(e){
-    resultado.textContent = resultado.textContent + "5"
+    resultado.textContent = resultado.textContent + "5";
 }
   seis.onclick = function(e){
-    resultado.textContent = resultado.textContent + "6"
+    resultado.textContent = resultado.textContent + "6";
 }
   siete.onclick = function(e){
-    resultado.textContent = resultado.textContent + "7"
+    resultado.textContent = resultado.textContent + "7";
 }
   ocho.onclick = function(e){
-    resultado.textContent = resultado.textContent + "8"
+    resultado.textContent = resultado.textContent + "8";
 }
   nueve.onclick = function(e){
-    resultado.textContent = resultado.textContent + "9"
+    resultado.textContent = resultado.textContent + "9";
 }
   cero.onclick = function(e){
-    resultado.textContent = resultado.textContent + "0"
+    resultado.textContent = resultado.textContent + "0";
 }
   doble_cero.onclick = function(e){
-    resultado.textContent = resultado.textContent + "00"
+    resultado.textContent = resultado.textContent + "00";
 }
   reset.onclick = function(e){
-    resetear();
+    clean();
 }
   sumar.onclick = function(e){
     numero1 = resultado.textContent;
@@ -68,9 +68,9 @@ function init(){
     clean();
 }
   sumar.onclick = function(e){
-  numero1 = resultado.textContent;
-  operacion = "+";
-  clean();
+    numero1 = resultado.textContent;
+    operacion = "+";
+    clean();
 }
   restar.onclick = function(e){
     numero1 = resultado.textContent;
@@ -92,6 +92,7 @@ function init(){
     operacion = "=";
     resolver();
   }
+}
 function limpiar(){
   resultado.textContent = "";
   numero1 = 0;
@@ -115,7 +116,8 @@ function resolver(){
         aux = parseFloat(numero1) / parseFloat(numero2)
         break;
     }
-    resetear();
+    clear();
     resultado.textContent = aux;
+
 
 }
