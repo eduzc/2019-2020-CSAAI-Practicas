@@ -30,3 +30,44 @@ button {
  margin-left: 600px;
  margin-right: 305px;
 }
+#play1 {
+ position: absolute; top: 680px;
+
+}
+#play2 {
+ position: absolute; top: 950px;
+
+}
+#play3 {
+ position: absolute; top: 1220px;
+
+}
+#video1 {
+ position: absolute; top: 600px;
+ margin-top: 20px;
+ margin-left: 23px;
+ width: 400px;
+ height: 200px;
+}
+#video2 {
+ position: absolute; top: 700px;
+ margin-left: 20px;
+ margin-top: 200px;
+ width: 400px;
+ height: 200px;
+}
+#video3 {
+ position: absolute; top: 1150px;
+ margin-top: 20px;
+ margin-left: 23px;
+ width: 400px;
+ height: 200px;
+}
+#pantalla {
+ position: absolute; top: 20px;
+ position: absolute; left: 95px;
+ margin-top: 150px;
+ width: 800px;
+ height: 400px;
+
+}
