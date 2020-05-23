@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Filtro 1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="filtros.js"></script>
+  </head>
+  <body onload="main();">
+
+    <section>
+
+      <p id="Imgoriginal">Imagen original</p>
+      <img src="black-hole.jpg" id="imagesrc">
+      <p id= "Imgmodificada">Imagen modificada</p>
+      <canvas id="display"></canvas><br>
+        <h1>
+
+
+      <div class="slideContainer">
+
+        <input type="range"  id="R" min="0" max="255" value="255" class="slider"><p id="first" >Rojo</p>
+        <p id="R_range">250</p>
+      </div>
+
+
+      <input type="range" id="G" min="0" max="255" value="255"/><p id="second">Verde</p>
+      <p id="G_range">250</p>
+      <input type="range" id="B" min="0" max="255" value="255"/><p id ="third">Azul</p>
+      <p id="B_range">250</p>
+      <input type="range" id="trans" min="0" max="255" value="255"/><p id ="fourth">TRANSPARENCIA</p>
+    
+
+
+
+  </body>
+</html>
