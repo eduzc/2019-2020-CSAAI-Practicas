@@ -1,0 +1,122 @@
+body{
+background-color: #0cbaba;
+background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+}
+
+#img_original {
+  display:none;
+
+}
+#Imgoriginal{
+  text-align: center;
+
+  position: relative; left:  392px;
+  position: relative; top:  30px;
+  margin-right: 770px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
+  font-family: Montserrat, sans-serif;
+  background: linear-gradient(162deg, rgba(114,32,255,1) 0%, rgba(30,79,224,0.6895133053221288) 100%);
+  margin-top: 5px;
+  padding: 20px;
+
+}
+#Imgmodificada{
+  text-align: center;
+
+  position: relative; left:  392px;
+  position: relative; top:  30px;
+  margin-right: 770px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
+  font-family: Montserrat, sans-serif;
+  background: linear-gradient(162deg, rgba(114,32,255,1) 0%, rgba(30,79,224,0.6895133053221288) 100%);
+  margin-top: 5px;
+  padding: 20px;
+
+}
+#imagesrc {
+    position: relative; left:  432px;
+
+}
+#display{
+    position: relative; left:  432px;
+
+}
+#first{
+
+  border-radius: 20px;
+  text-align: center;
+  border: none;
+  font-size: 20px;
+  font-family: Montserrat, sans-serif;
+  background: red;
+  margin-top: 5px;
+  padding: 15px;
+  margin-left: 200px;
+  position: absolute; left:  330px;
+  position: absolute; top:  875px;
+}
+#second{
+
+  border-radius: 20px;
+  text-align: center;
+  border: none;
+  font-size: 20px;
+  font-family: Montserrat, sans-serif;
+  background: green;
+  margin-top: 5px;
+  padding: 12px;
+  margin-left: 200px;
+  position: absolute; left:  330px;
+  position: absolute; top:  980px;
+}
+#third{
+
+  border-radius: 20px;
+  text-align: center;
+  border: none;
+  font-size: 20px;
+  font-family: Montserrat, sans-serif;
+  background: blue;
+  margin-top: 5px;
+  padding: 12px;
+  margin-left: 200px;
+  position: absolute; left:  330px;
+  position: absolute; top:  1084px;
+}
+h1{
+  margin-left: 620px;
+}
+#B_N{
+  margin-left: 620px;
+  border-radius: 20px;
+  text-align: center;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-family: Montserrat, sans-serif;
+  background: black;
+  margin-top: 5px;
+  padding: 20px;
+
+
+}
+#resetear{
+
+   margin-left: 620px;
+  border-radius: 20px;
+  text-align: center;
+  border: none;
+  color: black;
+  font-size: 20px;
+  font-family: Montserrat, sans-serif;
+  background: white;
+  margin-top: 5px;
+  padding: 20px;
+
+}

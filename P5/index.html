@@ -29,7 +29,31 @@
       <input type="range" id="B" min="0" max="255" value="255"/><p id ="third">Azul</p>
       <p id="B_range">250</p>
       <input type="range" id="trans" min="0" max="255" value="255"/><p id ="fourth">TRANSPARENCIA</p>
-    
+      <span id="range_trans">255</span>
+      </h1>
+    </section>
+    <!-- Reseteamos imagen:-->
+    <section>
+        <button id="resetear" type ="button"> RESET </button>
+    </section>
+    <!-- Filtro Blanco y negro:-->
+    <section>
+          <button id ="B_N" type = "button">Blanco y negro</button>
+    </section>
+    <!-- Rotar imagen :-->
+    <section>
+          <button id ="rotar" type = "button">Rotar</button>
+    </section>
+    <script>
+
+    const img = document.getElementById('imagesrc')
+    const boton = document.getElementById("rotar")
+    let rotate = 0
+    boton.onclick=()=>{
+      rotate = rotate + 90;
+      img.style.transform = 'rotate(${rotate}deg)'
+    }
+    </script>
 
 
 
