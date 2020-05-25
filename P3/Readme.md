@@ -21,6 +21,7 @@ Si la puntuacion es 3, entonces  x++ devuelve 3 y, solo después de devolver el 
 
 En este caso hemos establecido el limite de la puntuacion a 10 puntos, una vez llegamos a 10 borramos el canvas y lo sustituimos por un panel con el nombre del jugador que ha ganado.
 
+----------------------------------------------------------------------------------
 Nota:
 Esta práctica en especial apenas tiene commits, ya que tuve problemas con el atom debido a que se me actualizó a la versión 1.47.0 la cual tiene problemas de compatibilidad con el paquete de vista previa del html, con lo que programe todo en un editor web y una vez conseguí que me funcionase lo copie al atom.
 https://github.com/harmsk/atom-html-preview/issues/214
