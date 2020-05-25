@@ -40,22 +40,5 @@
     <section>
           <button id ="B_N" type = "button">Blanco y negro</button>
     </section>
-    <!-- Rotar imagen :-->
-    <section>
-          <button id ="rotar" type = "button">Rotar</button>
-    </section>
-    <script>
-
-    const img = document.getElementById('imagesrc')
-    const boton = document.getElementById("rotar")
-    let rotate = 0
-    boton.onclick=()=>{
-      rotate = rotate + 90;
-      img.style.transform = 'rotate(${rotate}deg)'
-    }
-    </script>
-
-
-
   </body>
 </html>
