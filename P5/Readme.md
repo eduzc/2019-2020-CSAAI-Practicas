@@ -8,5 +8,6 @@ En el js creo otras variables para recoger las variables creadas en el html.
 Posteriormente defino al canvas con las mismas dimensiones de la imagen.
 La funcion filtrar sirve como su nombre indica para filtrar o separar los colores de la imagen
 La funcion reset devuelve los valores del slider a su estado inicial, es decir, a 255.
+La funcion gris sirve para poner en blanco y negro la imagen modificada, utilizamos la fórmula dada.
 Una vez movemos el slider de la transparencia tenemos que mover también cualquiera de los otros tres sliders para que se vea afectada la imagen.
 Las modificaciones se encuentran en el canvas, mientras que la imagen original la obtenemos de imagesrc.
