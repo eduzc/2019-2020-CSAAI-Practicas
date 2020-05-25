@@ -18,12 +18,12 @@ function main()
 
   watch1.onclick = () => {
     console.log("Reproduciendo...")
-    screen_.src = "Video_1.mp4";
+    screen_.src = "https://gsyc.urjc.es/jmplaza/csaai/realizador-fuente1.mp4";
     screen_.currentTime = video1.currentTime;
   }
   watch2.onclick = () => {
     console.log("Reproduciendo...")
-    screen_.src = "Video_2.mp4";
+    screen_.src = "https://gsyc.urjc.es/jmplaza/csaai/realizador-fuente2.mp4";
     screen_.currentTime = video2.currentTime;
   }
   watch3.onclick = () => {
